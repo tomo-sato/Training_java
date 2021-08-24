@@ -1,9 +1,10 @@
 
 /**
  * Lesson 001.
- * <p>
- * コンソールに「hello world」を表示するコマンドラインアプリを作成する。
- * </p>
+ * <dl>
+ * <dt></dt>
+ * <dd>コンソールに「hello world」を表示するコマンドラインアプリを作成する。</dd>
+ * </dl>
  *
  * @author tomo-sato
  */
