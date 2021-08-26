@@ -1,0 +1,34 @@
+
+/**
+ * Lesson 003.
+ * <dl>
+ * <dt>課題3（Lesson 003-03）</dt>
+ * <dd>コマンド引数を2個受け取り、値の大きい方を返す。</dd>
+ * </dl>
+ *
+ * @author tomo-sato
+ */
+public class Lesson_003_03 {
+
+	public static void main(String[] args) {
+		int i = Integer.parseInt(args[0]);
+		int j = Integer.parseInt(args[1]);
+
+		int ans = max(i, j);
+		System.out.println(ans);
+	}
+
+	/**
+	 * ２つの数値を比較し大きいほうを返す。
+	 *
+	 * @param i	数値1
+	 * @param j	数値2
+	 * @return	比較結果
+	 */
+	public static int max(final int i, final int j) {
+		if (i < j) {
+			return j;
+		}
+		return i;
+	}
+}
