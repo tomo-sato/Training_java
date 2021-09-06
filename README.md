@@ -3,11 +3,11 @@
 JAVA研修用
 
 -----
-* Lesson 001
+* [Lesson 001](/Lesson_001/README.md)
 	* コンソールに「hello world」を表示するコマンドラインアプリを作成する。
 
 -----
-* Lesson 002
+* [Lesson 002](/Lesson_002/README.md)
 	* Lesson 002 課題1（Lesson 002-01）
 		* 変数の値を入れ替える。
 	* Lesson 002 課題2（Lesson 002-02）
