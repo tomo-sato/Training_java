@@ -40,7 +40,7 @@ public class Lesson_003_02 {
 	 * @return	計算結果(引き算)
 	 */
 	public static int sub(final int i, final int j) {
-		if (i > j) {
+		if (i < j) {
 			return 0;
 		}
 		int ret  = i - j;
